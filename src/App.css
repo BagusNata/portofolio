@@ -66,11 +66,11 @@
   letter-spacing: 2px;
   word-spacing: 2px;
   font-weight: 700;
-  padding-top: 2rem;
-  margin-bottom: 1rem;
+  padding-top: 4rem;
+  margin-bottom: 2rem;
 }
 
-.font-language-passion {
+.font-passion-header {
   font-family: Georgia, serif;
   color: white;
   text-align: center;
@@ -79,13 +79,26 @@
   letter-spacing: 2px;
   word-spacing: 2px;
   font-weight: 700;
-  padding-top: 2rem;
+  padding-top: 5.5rem;
+  margin-bottom: 2rem;
+}
+
+.font-language-header {
+  font-family: Georgia, serif;
+  color: white;
+  text-align: center;
+  text-shadow: 5px 3px 7px #000000;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-weight: 700;
+  padding-top: 4.5rem;
   margin-bottom: 2rem;
 }
 
 .font-logo {
   font-family: "arial";
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 2px;
   word-spacing: 2px;
   color: white;
@@ -136,23 +149,50 @@
 .contact-img {
   max-width: 40px;
   margin-left: 30px;
-  margin-right: 20px;
+  margin-right: 12px;
+  margin-bottom: 5px;
 }
+
+.phone-img {
+  max-width: 40px;
+  margin-left: 30px;
+  margin-right: 12px;
+}
+
 .email-img {
   max-width: 51px;
   margin-left: 23px;
-  margin-right: 15px;
+  margin-right: 7px;
+  margin-bottom: 5px;
+}
+
+.github-img {
+  max-width: 29px;
+  margin-left: 34px;
+  margin-right: 17px;
+  margin-bottom: 12px;
 }
 
 /* ==> SKILL BOX <== */
 .skill-box {
   text-align: center;
+  margin-top: 1rem;
 }
 .skill-img {
-  max-width: 175px;
-  margin-left: 30px;
-  margin-right: 20px;
+  max-width: 138px;
+  margin-left: 3px;
+  margin-right: 7px;
   margin-bottom: 12px;
+  display: inline-block;
+}
+
+.skill2-img {
+  max-width: 138px;
+  margin-left: 3px;
+  margin-top: 4px;
+  margin-right: 7px;
+  margin-bottom: 12px;
+  display: inline-block;
 }
 
 /* ==> LANGUAGE BOX <== */
@@ -184,7 +224,12 @@
 }
 .passion-img {
   max-width: 55px;
-  margin: 0 42.5px;
+  margin: 0 32.5px;
+}
+.passionGame-img {
+  max-width: 55px;
+  margin: 0 32.5px;
+  margin-left: 60px;
 }
 
 /* =============================================================================================================== */
@@ -193,6 +238,7 @@
 .about-box {
   padding: 0.5rem 2rem !important;
   margin: 0 1rem;
+  background: #fafafa !important;
 }
 .aboutme-header {
   background: #133269;
@@ -209,7 +255,7 @@
   display: inline-block;
   margin-left: 37.5rem;
   padding: 5px 11.5px;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   border-radius: 100px 0px 0px 100px;
 }
@@ -219,7 +265,7 @@
   display: inline-block;
   margin-left: 37.5rem;
   padding: 5px 6.5px;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   border-radius: 100px 0px 0px 100px;
 }
@@ -251,4 +297,19 @@
   color: black;
   font-weight: 600;
   text-align: justify;
+}
+
+.projectList-font {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: 700;
+  text-align: right !important;
+}
+
+.arrow {
+  display: inline-block;
+  transform: rotate(180deg);
 }
