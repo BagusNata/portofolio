@@ -32,7 +32,6 @@ export class MainContent extends Component {
         <div>
           <Header />
         </div>
-
         <div className="content-flex">
           <div className="col-md-4">
             <div className="contact-box">
@@ -42,7 +41,6 @@ export class MainContent extends Component {
               <div>{passionBox}</div>
             </div>
           </div>
-
           <div className="col-md-8 about-box">
             <div>{aboutMe}</div>
             <div>{education}</div>
@@ -135,7 +133,7 @@ function LanguageBox() {
 
 function PassionBox() {
   return (
-    <div style={{ paddingBottom: "4rem" }}>
+    <div style={{ paddingBottom: "2.1rem" }}>
       <h1 className="font-passion-header">PASSIONS</h1>
       <div style={{ display: "inline-block" }}>
         <div className="font-passion passion-icon">
