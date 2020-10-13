@@ -148,7 +148,7 @@ function PassionBox() {
 
 function AboutMe() {
   return (
-    <div>
+    <div className="text-right">
       <div className="aboutme-header">
         <div className="aboutme-font">ABOUT ME</div>
       </div>
@@ -164,7 +164,7 @@ function AboutMe() {
 
 function Education() {
   return (
-    <div>
+    <div className="text-right">
       <div className="education-header">
         <div className="aboutme-font">EDUCATION</div>
       </div>
@@ -181,7 +181,7 @@ function Education() {
 
 function CodingExperience() {
   return (
-    <div>
+    <div className="text-right">
       <div className="experience-header">
         <div className="aboutme-font">EXPERIENCE</div>
       </div>
@@ -205,7 +205,7 @@ function CodingExperience() {
 
 function Project() {
   return (
-    <div>
+    <div className="text-right">
       <div className="project-header">
         <div className="aboutme-font">PROJECT</div>
       </div>
