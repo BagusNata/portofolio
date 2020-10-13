@@ -7,21 +7,18 @@ export class Header extends Component {
     return (
       <div>
         <div className="row bg-profile">
-          <div className="header-format">
-            <div className="profile-card">
+            <div className="col-md-4 profile-card">
               <img
                 src={profilePic}
                 className="profile-img"
                 alt="profile picture"
               />
             </div>
-
-            <div className="judul">
+            <div className="judul col-md-8">
               <h1 className="font-nama">I MADE BAGUS NATA DWI KUSUMA</h1>
               <h2 className="font-ket">MAHASISWA ITB STIKOM BALI</h2>
               <h4 className="font-slogan">"Datang Dan Pergi Untuk Sebuah Cita-Cita"</h4>
             </div>
-          </div>
         </div>
       </div>
     );
