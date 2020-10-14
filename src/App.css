@@ -19,9 +19,7 @@
   background: linear-gradient(to bottom, #0d164a 0%, #1f60a1 60%, #2782c2 100%);
   text-align: center;
 }
-.header-format {
-  display: inline-flex;
-}
+
 .judul {
   display: block;
   padding: 20px 3rem;
