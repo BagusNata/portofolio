@@ -113,34 +113,30 @@ function SkillBox() {
 function LanguageBox() {
   return (
     <div>
-      <h1 className="font-language-header">LANGUAGE</h1>
-      <div style={{ display: "inline-block" }}>
-        <div className="font-language language-icon">
+        <h1 className="font-language-header">LANGUAGE</h1>
+        <div className="font-display">
           <img className="language-img" src={Indonesia} alt="indonesia" />
           <img className="language-img" src={Inggris} alt="inggris" />
           <img className="language-img" src={Bali} alt="bali" />
         </div>
 
         <div className="font-language">
-          <div className="language-display">Indonesia</div>
-          <div className="language-display">English</div>
-          <div className="language-display">Balinese</div>
+          <div className="language-display">IDN</div>
+          <div className="language-display">ENG</div>
+          <div className="language-display">Bali</div>
         </div>
       </div>
-    </div>
   );
 }
 
 function PassionBox() {
   return (
-    <div style={{ paddingBottom: "2.1rem" }}>
+    <div>
       <h1 className="font-passion-header">PASSIONS</h1>
-      <div style={{ display: "inline-block" }}>
-        <div className="font-passion passion-icon">
-          <img className="passionGame-img" src={Game} alt="Game logo" />
-          <img className="passion-img" src={Music} alt="Music logo" />
-          <img className="passion-img" src={TV} alt="TV logo" />
-        </div>
+      <div className="font-passion passion-icon">
+        <img className="passionGame-img" src={Game} alt="Game logo" />
+        <img className="passion-img" src={Music} alt="Music logo" />
+        <img className="passion-img" src={TV} alt="TV logo" />
       </div>
     </div>
   );

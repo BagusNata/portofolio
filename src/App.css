@@ -116,11 +116,19 @@
   text-shadow: 5px 3px 7px #000000;
 }
 
+.font-display {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1.5rem;
+}
+
 .font-language {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
   font-family: "arial";
   color: white;
   text-align: center;
-  margin: 0px 12px;
   font-size: 17px;
   letter-spacing: 2px;
   word-spacing: 2px;
@@ -194,40 +202,27 @@
 }
 
 /* ==> LANGUAGE BOX <== */
-.language-box {
-  text-align: center;
-  display: inline-block;
-  padding-bottom: 2rem !important;
-}
-.language-icon {
-  margin-top: 20px;
-}
+
 .language-img {
   max-width: 60px;
-  margin: 0 34.5px;
 }
 .language-display {
   display: inline-block !important;
-  margin: 0px 23px;
 }
 
 /* ==> PASSION BOX <== */
-.passion-box {
-  text-align: center;
-  display: inline-block;
-  padding-bottom: 2rem !important;
-}
+
 .passion-icon {
-  margin-top: 20px;
+  margin: 1rem 1.5rem;
+  padding-bottom: 7rem;
+  display: flex;
+  justify-content: space-between;
 }
 .passion-img {
   max-width: 55px;
-  margin: 0 32.5px;
 }
 .passionGame-img {
   max-width: 55px;
-  margin: 0 32.5px;
-  margin-left: 60px;
 }
 
 /* =============================================================================================================== */
